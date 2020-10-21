@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: #00a2ff;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.plane {
+  position: absolute;
+  top: 35vh;
+  left: 60vw;
+  width: 600px;
+  z-index: 1;
+}
+
+.cloud {
+  position: absolute;
+}
+
+.cloud-container:nth-of-type(2) .cloud {
+  top: 45vh;
+  left: 55vw;
+  width: 600px;
+}
+
+.cloud-container:nth-of-type(3) .cloud {
+  top: 0vh;
+  left: 10vw;
+  width: 600px;
+}
+
+.cloud-container:nth-of-type(4) .cloud {
+  top: 95vh;
+  left: 90vw;
+  width: 550px;
+}
+
+.cloud-container:nth-of-type(5) .cloud {
+  top: 0vh;
+  left: 85vw;
+  width: 400px;
+}
+
+.cloud-container:nth-of-type(6) .cloud {
+  top: 80vh;
+  left: -2vw;
+  width: 700px;
+}
+/*# sourceMappingURL=main.css.map */
